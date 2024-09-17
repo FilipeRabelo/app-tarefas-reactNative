@@ -1,0 +1,89 @@
+// style inline
+
+// import React from "react";
+// import { View, Text } from 'react-native';
+
+// export default function App() {
+//   return (
+//     <View style= {{ flex: 1, backgroundColor: '#FF7300', padding: 28 }
+// }>
+//   <Text style={ { fontSize: 28,} }> Filipe </Text>
+//     < Text style = {{ fontSize: 28, }}> App react - native </Text>
+//       </View>
+//   )
+// }
+
+
+// -------------------------------------------------------------------
+
+//   ESTILOS EM CONTAINER
+
+
+
+
+// import React, { useState } from "react";
+// import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+
+// export default function App() {
+
+//   const [nome, setNome] = useState('Fulano');
+
+//   function handleMudarNome() {
+//     // alert('Teste');
+//     setNome('Filipe Rabelo');
+//   }
+
+//   return (
+//     <View style= { styles.container } >
+
+//     {/* <Text style={styles.title}>Filipe</Text> */ }
+//     < Text style = { [styles.title, styles.text]} > App react native </>
+//       < Text style = { [styles.title, styles.text2]} > { nome } </>
+
+//         < TouchableOpacity style = { styles.button } onPress = { handleMudarNome } >
+//           <Text style={ styles.buttonText }> Mudar nome </Text>
+//             </>
+
+//             </View>
+//   )
+// }
+
+// // grupo de estilos
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#6F42C1',
+//     justifyContent: 'center',           // Centraliza o conteúdo verticalmente
+//     alignItems: 'center',               // Centraliza o conteúdo horizontalmente
+//     padding: 20,                        // Adiciona algum padding, se necessário
+//   },
+//   title: {
+//     fontSize: 28,
+//     textAlign: 'center',
+//     fontWeight: 'bold',
+//     textTransform: 'capitalize',
+//   },
+//   text: {
+//     color: '#00FFFF',
+//   },
+//   text2: {
+//     fontSize: 38,
+//     fontWeight: 'bold',
+//     marginTop: 16,
+//   },
+//   button: {
+//     backgroundColor: '#F7E04A',
+//     height: 40,
+//     width: 150,                         // Largura do botão ajustada
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//     borderRadius: 5,                    // Adiciona bordas arredondadas para um visual mais moderno
+//     marginTop: 20,                      // Espaço acima do botão
+//   },
+//   buttonText: {
+//     fontWeight: 'bold',
+//     fontSize: 16,                       // Ajuste o tamanho da fonte se necessário
+//     color: '#6F42C1',                   // Cor do texto do botão
+//   }
+// });
